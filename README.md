@@ -19,6 +19,7 @@ xxl-job调度器内存马【此内存马需要执行器与调度器在同一环�
 
 ```
 URL:http://192.168.65.137:8080/xxl-job-admin/toLogin OR http://192.168.65.137:8080/toLogin
+URL地址根据访问的xxl-job登录页面判断
 password:Gsehcvfao
 User-Agent: Mozilla/5.0 (Yckq; Macintosh; magic Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0
 ```

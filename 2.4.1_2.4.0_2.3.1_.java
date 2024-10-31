@@ -1232,7 +1232,7 @@
                 Process process = processBuilder.start();
 
                 String pid = null;
-                Pattern pidPattern = Pattern.compile("\\[\\*\\] Found pid (\\d+) [^\\[]*\\[com.xxl.job.admin.XxlJobAdminApplication\\]");
+                Pattern pidPattern = Pattern.compile("\\[\\*\\] Found pid (\\d+) [^\\[]*\\[.*?job.admin.*?\\]");
 
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
                     String line;

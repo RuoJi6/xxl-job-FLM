@@ -1255,7 +1255,7 @@ public class DemoGlueJobHandler extends IJobHandler {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         String line;
-        Pattern pattern = Pattern.compile("\\[\\*\\] Found pid (\\d+) [^\\[]*\\[com.xxl.job.admin.XxlJobAdminApplication\\]");
+        Pattern pattern = Pattern.compile("\\[\\*\\] Found pid (\\d+) [^\\[]*\\[.*?job.admin.*?\\]");
         String pid = null;
         try {
             while ((line = reader.readLine()) != null) {
